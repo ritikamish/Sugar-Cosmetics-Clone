@@ -1,0 +1,100 @@
+body {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.container {
+  margin: 105px !important;
+}
+.container > section#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Inter;
+}
+.container > section#heading > h1 {
+  padding-bottom: 40px;
+  margin: 0;
+  line-height: 45px;
+  font-weight: 700;
+  font-size: 29.41px;
+}
+.container > section#heading > p {
+  font-weight: 400;
+  line-height: 0.13px;
+  font-size: 14.3px;
+}
+.container > section#carts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+}
+.container > section#carts > div.cart {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #E7E6E6;
+  border-radius: 12px;
+  padding: 11px;
+  position: relative;
+}
+.container > section#carts > div.cart > img {
+  width: 100%;
+  border-radius: 12px;
+}
+.container > section#carts > div.cart > .icon {
+  top: 191.56px;
+  right: 21px;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 35px;
+}
+.container > section#carts > div.cart > .faded {
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24.38px;
+  color: #717171;
+  margin-left: 31px;
+  font-size: 12.19px;
+}
+.container > section#carts > div.cart > h1 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 15.88px;
+  line-height: 24px;
+  color: #05073C;
+  font-family: Inter;
+}
+.container > section#carts > div.cart > p {
+  color: #05073C;
+  margin-left: 90px;
+  font-family: Inter;
+  font-size: 12.49px;
+  font-weight: 400;
+  line-height: 24.38px;
+}
+.container > section#carts > div.cart .text {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border-top: 1px solid #E7E6E6;
+}
+.container > section#carts > div.cart .text > p {
+  color: #05073C;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+.container > section#carts > div.cart .text > p > span {
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  font-size: 15.13px;
+  line-height: 30px;
+  margin: 0px;
+}/*# sourceMappingURL=styles.css.map */
