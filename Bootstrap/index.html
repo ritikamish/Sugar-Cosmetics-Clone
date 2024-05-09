@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sugar Cosmetics</title>
     <link rel="stylesheet" href="styles.css">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -126,6 +126,20 @@
             color: inherit;
             text-decoration: none;
         }
+
+        .container-fluid{
+            margin:0;
+            padding: 0;
+        }
+        
+        @media (min-width: 1200px) {
+      section.container-fluid {
+        max-width: 1200px; /* Or adjust according to your design */
+        margin: auto;
+    }
+}
+
+
     </style>
 </head>
 
@@ -235,26 +249,36 @@
     </div>
 
 
+    
 
     <!-- Club vellvette section [Sagar Day-2 Task-1] -->
     <div class="container-fluid">
         <div class="day2-task1">
-            <div class="d-flex align-items-center justify-content-center py-3">
-                <div class="d-flex align-items-center justify-content-center"
-                    style="width: 3%; border-top: 2px solid #fc2779"></div>
-                <h4 class="px-3">CLUB VELLVETTE</h4>
-                <div class="d-flex align-items-center justify-content-center"
-                    style="width: 3%; border-top: 2px solid #fc2779"></div>
+          <div class="d-flex align-items-center justify-content-center py-3">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="width: 3%; border-top: 2px solid #fc2779"
+            ></div>
+            <h4 class="px-3">CLUB VELLVETTE</h4>
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="width: 3%; border-top: 2px solid #fc2779"
+            ></div>
+          </div>
+  
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <a href="#"> <img
+                src="./assets/Screenshot 2024-05-08 154301.png"
+                alt=""
+                width="100%"
+              /> </a>
             </div>
-
-            <div class="container">
-                <div class="d-flex justify-content-center">
-                    <img src="./assets/Screenshot 2024-05-08 154301.png" alt="" width="100%" />
-                </div>
-            </div>
+          </div>
         </div>
+  
 
-        <!-- Bestseller section [Sagar Day-2 Task-1] -->
+      <!-- Bestseller section [Sagar Day-2 Task-2] -->
         <div class="day2-task2">
             <div class="container-fluid">
                 <div style="background-image: url('https://d32baadbbpueqt.cloudfront.net/Homepage/7889f7d5-47ea-4aee-a760-22c4514a1999.png');"
@@ -731,11 +755,33 @@
 
 
      <!--  [Sagar Day-3 Task-1] -->
-
-
-
-
-
+ <section class="container ">
+    <div class="day3-task1">
+      <!-- Exclusive Treats Section -->
+      <div class="d-flex align-items-center justify-content-center py-3 mt-4">
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="width: 3%; border-top: 2px solid #fc2779"
+        ></div>
+        <h4 class="px-3">EXCLUSIVE TREATS</h4>
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="width: 3%; border-top: 2px solid #fc2779"
+        ></div>
+      </div>
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <a href="#"
+            ><img
+              class="rounded-4"
+              src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fea737a48-f8f7-4246-aff4-2ce813003a6b.jpg&w=1920&q=100"
+              alt=""
+              width="100%"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -746,7 +792,7 @@
 
 
     <!-- Product of the month [Ritika Day-2 Task-1]-->
-    <section class="product  m-5">
+    <section class="product  my-5  container-lg ">
         <div class="d-flex align-items-center justify-content-center py-3 pb-3">
             <div class="d-flex align-items-center justify-content-center   "
                 style="width: 3%; border-top: 2px solid #fc2779;"> </div>
@@ -754,7 +800,7 @@
             <div class="d-flex align-items-center justify-content-center   "
                 style="width: 3%; border-top: 2px solid #fc2779;"> </div>
         </div>
-        <img class=" rounded-3" width="100%"
+        <img class=" rounded-4" width="100%"
             src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fa681b683-8bf4-43e8-9873-ff46d50344a5.jpg&w=1920&q=75"
             alt="">
     </section>
@@ -763,35 +809,35 @@
 
 
     <!-- EXCLUSIVE COMBO LAUNCHES [Ritika Day-2 Task-2]-->
-    <div class="d-flex align-items-center justify-content-center py-3 pb-3">
+    <div class="d-flex align-items-center justify-content-center py-3 pb-3 container-md  container-sm container-lg">
         <div class="d-flex align-items-center justify-content-center   "
             style="width: 3%; border-top: 2px solid #fc2779;"> </div>
-        <h4 class="px-3"> PRODUCT OF THE MONTH </h4>
+        <h4 class="px-3"> EXCLUSIVE COMBO LAUNCHES  </h4>
         <div class="d-flex align-items-center justify-content-center   "
             style="width: 3%; border-top: 2px solid #fc2779;"> </div>
     </div>
-    <section class="combo_launch mx-5">
+    <section class="combo_launch  container-fluid ">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class=" d-flex  justify-content-between">
                         <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5e457171-f30f-4a64-bc84-68fa6c2c772c.png&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;"> <img
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
                             src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/decafd51-044b-4b5f-a2fc-74ba1b5112dd.png&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;"> <img
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
                             src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/0893bc4f-7c70-4a04-8b9a-49eb6ad3ead5.png&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;">
+                            class="d-block  rounded-4" alt="..." style="width: 32%;">
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class=" d-flex  justify-content-between">
                         <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/d7a98966-20af-4948-a847-4174946a0605.png&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;"> <img
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
                             src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5e457171-f30f-4a64-bc84-68fa6c2c772c.png&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;"> <img
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
                             src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5f852204-1d10-4233-9695-ac7cd3c7bcf2.jpg&w=1920&q=75"
-                            class="d-block  rounded-3" alt="..." style="width: 32%;">
+                            class="d-block  rounded-4" alt="..." style="width: 32%;">
                     </div>
                 </div>
 
@@ -870,9 +916,8 @@
 
 
 
+    
 
-
-
-</body>
-
+ 
+  </body>
 </html>
