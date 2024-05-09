@@ -18,9 +18,845 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    </head>
-    <body>
+    <style data-styled="active" data-styled-version="5.3.11"></style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            display: block;
+            margin: 0;
+        }
+
+        .navbar {
+            background: url('https://d32baadbbpueqt.cloudfront.net/Wtp/4fe18541-f1be-4bff-8997-236ab6922b5a.png');
+            display: flex;
+            align-items: center;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 140px;
+            padding-block: 6px;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+
+        }
+
+        .name {
+            flex: 2 1 0%;
+            position: relative;
+            height: 24px;
+            width: 100%;
+            display: block;
+            flex-direction: column;
+            animation: name 7s infinite;
+        }
+
+
+        .rotate {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: bold;
+            text-align: left;
+            cursor: pointer;
+
+        }
+
+        @keyframes name {
+            10% {
+                transform: translateY(0%);
+            }
+
+            30% {
+                transform: translateY(-100%);
+
+            }
+
+            50% {
+                transform: translateY(-200%);
+
+            }
+
+            70% {
+                transform: translateY(-300%);
+
+            }
+        }
+
+        h5 {
+            display: block;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+
+        .spans {
+            flex: 1 1 0%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .sp {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            gap: 4px;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container-fluid{
+            margin:0;
+            padding: 0;
+        }
         
+        @media (min-width: 1200px) {
+      section.container-fluid {
+        max-width: 1200px; /* Or adjust according to your design */
+        margin: auto;
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Navbar-Top [Dhananjay Day-2 Task-1] -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="name">
+                    <div class="rotate">
+                        <a class="link">New Launch: SUMMER MAKEUP KIT at Rs. 1799</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Exclusive Freebies on orders above Rs. 799</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Use code: SUGAR15 to get 15% OFF!</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Website Exclusive Kits & Combos Up To 25% OFF</a>
+                    </div>
+                </div>
+                <div class="spans">
+                    <div class="sp">
+                        <i class="fa fa-mobile" style="color: #ffffff;"></i>
+                        <span>GET APP</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>STORE</span>
+                    </div>
+                    <div>
+                        <img src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1862924f-1da6-49c4-bbe5-ad0bb3e4dfdd.png"
+                            alt="">
+                        <span>GIFT CARD</span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-question"></i>
+                        <span>HELP</span>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!--  [Dhananjay Day-3 Task-1] -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Carousel Homepage [Rohit Day-2 Task-1]-->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 3"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F726f33df-2f1c-4ce9-a962-003549da75cb.jpg&w=1920&q=75"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fc37dfd1d-34c0-43b0-85c0-db77a2808444.gif&w=1920&q=75"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fe8bf1ee3-7c23-4f2b-93c0-74cd25538db2.jpg&w=1920&q=75"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F06505ad6-be4e-434b-8d81-94874e4b3a97.jpg&w=1920&q=75"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fbdbf866f-5510-4993-9f26-6fbe6bc3f249.gif&w=1920&q=75"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    
+
+    <!-- Club vellvette section [Sagar Day-2 Task-1] -->
+    <div class="container-fluid">
+        <div class="day2-task1">
+          <div class="d-flex align-items-center justify-content-center py-3">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="width: 3%; border-top: 2px solid #fc2779"
+            ></div>
+            <h4 class="px-3">CLUB VELLVETTE</h4>
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="width: 3%; border-top: 2px solid #fc2779"
+            ></div>
+          </div>
+  
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <a href="#"> <img
+                src="./assets/Screenshot 2024-05-08 154301.png"
+                alt=""
+                width="100%"
+              /> </a>
+            </div>
+          </div>
+        </div>
+  
+
+      <!-- Bestseller section [Sagar Day-2 Task-2] -->
+        <div class="day2-task2">
+            <div class="container-fluid">
+                <div style="background-image: url('https://d32baadbbpueqt.cloudfront.net/Homepage/7889f7d5-47ea-4aee-a760-22c4514a1999.png');"
+                    id="carouselExampleFade" class="carousel slide carousel-fade mt-5">
+                    <div class="container carousel-inner">
+                        <div class="d-flex align-items-center justify-content-center py-3 pb-3">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="width: 4%; border-top: 2px solid #fc2779"></div>
+                            <h4 class="px-3 text-light">BEST SELLER</h4>
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="width: 4%; border-top: 2px solid #fc2779"></div>
+                        </div>
+                        <div class="carousel-item active d-flex justify-content-center gap-4 pb-5">
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/01_afe1f1c7-2e58-43e4-95f9-b220b8944eba.jpg?v=1714491423"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Mousse Muse Lip Cream</p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades </p>
+
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹555 </p>
+                                        <span>MRP <del>₹599</del></span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹444</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_e21836f5-69f2-47f9-b5c9-8515047d1ece.jpg?v=1712558956"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte Attack Transferproof Lipstick</p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        15 shades </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹636</p>
+                                        <span>MRP <del>₹749</del></span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹509</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1">
+                                            <span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center m-0">
+                                    <img class="rounded-3"
+                                        src="https://cdn.shopify.com/s/files/1/0906/2558/files/370205924-01_1aef1c2e-8e41-42a2-89c5-70dab3b356ac.jpg?v=1698238462"
+                                        alt="..." width="160px" height="200px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte As Hell Crayon Lipstick Minis Set of 3</p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        3 Shades </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹999 </p>
+                                        <span>MRP <del>₹1799</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹799</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px"
+                                    class="d-flex justify-content-center align-items-center pt-4">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/DreamCoverSpf15MattifyingCompactPDPImages1_fda977ab-1770-4598-b840-a3beeef0dfa2.jpg?v=1680623271"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Dream Cover SPF15 Mattifying Compact
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹467
+                                        </p>
+                                        <span>MRP <del>₹549</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹374</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active d-flex justify-content-center gap-4 pb-5">
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center m-0">
+                                    <img class="rounded-3"
+                                        src="https://cdn.shopify.com/s/files/1/0906/2558/files/370205924-01_1aef1c2e-8e41-42a2-89c5-70dab3b356ac.jpg?v=1698238462"
+                                        alt="..." width="160px" height="200px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte As Hell Crayon Lipstick Minis Set of 3
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        3 Shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹999
+                                        </p>
+                                        <span>MRP <del>₹1799</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹799</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/01_afe1f1c7-2e58-43e4-95f9-b220b8944eba.jpg?v=1714491423"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Mousse Muse Lip Cream
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹555
+                                        </p>
+                                        <span>MRP <del>₹599</del></span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹444</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_e21836f5-69f2-47f9-b5c9-8515047d1ece.jpg?v=1712558956"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte Attack Transferproof Lipstick
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        15 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹636
+                                        </p>
+                                        <span>MRP <del>₹749</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹509</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px"
+                                    class="d-flex justify-content-center align-items-center pt-4">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/DreamCoverSpf15MattifyingCompactPDPImages1_fda977ab-1770-4598-b840-a3beeef0dfa2.jpg?v=1680623271"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Dream Cover SPF15 Mattifying Compact
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹467
+                                        </p>
+                                        <span>MRP <del>₹549</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹374</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active d-flex justify-content-center gap-4 pb-5">
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px"
+                                    class="d-flex justify-content-center align-items-center pt-4">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/DreamCoverSpf15MattifyingCompactPDPImages1_fda977ab-1770-4598-b840-a3beeef0dfa2.jpg?v=1680623271"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Dream Cover SPF15 Mattifying Compact
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹467
+                                        </p>
+                                        <span>MRP <del>₹549</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹374</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/MatteAttackTransferproofLipstickPDPimagesFinal1_e21836f5-69f2-47f9-b5c9-8515047d1ece.jpg?v=1712558956"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte Attack Transferproof Lipstick
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        15 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹636
+                                        </p>
+                                        <span>MRP <del>₹749</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹509</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center">
+                                    <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/01_afe1f1c7-2e58-43e4-95f9-b220b8944eba.jpg?v=1714491423"
+                                        alt="..." width="160px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Mousse Muse Lip Cream
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        4 shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹555
+                                        </p>
+                                        <span>MRP <del>₹599</del></span>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹444</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card text-center mb-3 rounded-3" style="width: 15rem">
+                                <div style="height: 200px" class="d-flex justify-content-center align-items-center m-0">
+                                    <img class="rounded-3"
+                                        src="https://cdn.shopify.com/s/files/1/0906/2558/files/370205924-01_1aef1c2e-8e41-42a2-89c5-70dab3b356ac.jpg?v=1698238462"
+                                        alt="..." width="160px" height="200px" />
+                                </div>
+
+                                <div class="card-body">
+                                    <p style="height: 50px"
+                                        class="card-title d-flex justify-content-center align-items-top">
+                                        Matte As Hell Crayon Lipstick Minis Set of 3
+                                    </p>
+                                    <p
+                                        class="card-text card-title d-flex justify-content-center align-items-center m-0 text-body-secondary">
+                                        3 Shades
+                                    </p>
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <p
+                                            class="card-text fw-bold fs-5 card-title d-flex justify-content-center align-items-center m-0">
+                                            ₹999
+                                        </p>
+                                        <span>MRP <del>₹1799</del></span>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./assets/Screenshot 2024-05-08 174453.png" alt="" width="65px" />
+                                        <span>₹799</span>
+                                    </div>
+
+                                    <div class="card-body d-flex justify-content-evenly gap-2 p-0 pt-4">
+                                        <a href="#" class="btn btn-light border-black border-1"><span
+                                                class="material-symbols-outlined d-flex justify-content-center align-items-center pt-1">
+                                                favorite
+                                            </span></a>
+                                        <a href="#" style="width: 250px" class="btn btn-dark">SELECT SHADE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+     <!--  [Sagar Day-3 Task-1] -->
+ <section class="container ">
+    <div class="day3-task1">
+      <!-- Exclusive Treats Section -->
+      <div class="d-flex align-items-center justify-content-center py-3 mt-4">
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="width: 3%; border-top: 2px solid #fc2779"
+        ></div>
+        <h4 class="px-3">EXCLUSIVE TREATS</h4>
+        <div
+          class="d-flex align-items-center justify-content-center"
+          style="width: 3%; border-top: 2px solid #fc2779"
+        ></div>
+      </div>
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <a href="#"
+            ><img
+              class="rounded-4"
+              src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fea737a48-f8f7-4246-aff4-2ce813003a6b.jpg&w=1920&q=100"
+              alt=""
+              width="100%"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+    <!-- Product of the month [Ritika Day-2 Task-1]-->
+    <section class="product  my-5  container-lg ">
+        <div class="d-flex align-items-center justify-content-center py-3 pb-3">
+            <div class="d-flex align-items-center justify-content-center   "
+                style="width: 3%; border-top: 2px solid #fc2779;"> </div>
+            <h4 class="px-3"> PRODUCT OF THE MONTH </h4>
+            <div class="d-flex align-items-center justify-content-center   "
+                style="width: 3%; border-top: 2px solid #fc2779;"> </div>
+        </div>
+        <img class=" rounded-4" width="100%"
+            src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fa681b683-8bf4-43e8-9873-ff46d50344a5.jpg&w=1920&q=75"
+            alt="">
+    </section>
+
+
+
+
+    <!-- EXCLUSIVE COMBO LAUNCHES [Ritika Day-2 Task-2]-->
+    <div class="d-flex align-items-center justify-content-center py-3 pb-3 container-md  container-sm container-lg">
+        <div class="d-flex align-items-center justify-content-center   "
+            style="width: 3%; border-top: 2px solid #fc2779;"> </div>
+        <h4 class="px-3"> EXCLUSIVE COMBO LAUNCHES  </h4>
+        <div class="d-flex align-items-center justify-content-center   "
+            style="width: 3%; border-top: 2px solid #fc2779;"> </div>
+    </div>
+    <section class="combo_launch  container-fluid ">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class=" d-flex  justify-content-between">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5e457171-f30f-4a64-bc84-68fa6c2c772c.png&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
+                            src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/decafd51-044b-4b5f-a2fc-74ba1b5112dd.png&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
+                            src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/0893bc4f-7c70-4a04-8b9a-49eb6ad3ead5.png&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class=" d-flex  justify-content-between">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/d7a98966-20af-4948-a847-4174946a0605.png&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
+                            src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5e457171-f30f-4a64-bc84-68fa6c2c772c.png&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;"> <img
+                            src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5f852204-1d10-4233-9695-ac7cd3c7bcf2.jpg&w=1920&q=75"
+                            class="d-block  rounded-4" alt="..." style="width: 32%;">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
+
+
      <!--  Refer Your Friends section [Ritika Day-3 Task-1] -->
 
      <section class="product  my-5  container-lg ">
@@ -35,5 +871,51 @@
             src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F20395dda-05f5-4bdf-8015-a795d7c22678.jpg&w=1920&q=75"
             alt=""></a>
     </section>
+
+
+     <!--  [Rohit Day-3 Task-1] -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer- Read More  [Sumit Day-2 Task-1] -->
+
+    <div class="container">
+        <footer class="row">
+            <div class="col-md-12 text-center py-4 border-bottom">
+                <h3>
+                    <hr> READ MORE ABOUT SUGAR COSMETICS <span style="color: red;"> ></span>
+                </h3>
+            </div>
+            <div class="col-md-12 px-0">
+                <div class="text-center py-5 bg-image">
+                    <h5 class="text-black mb-3"> <span style="color: red;">------</span> LET’S STAY IN TOUCH <span
+                            style="color: red;">------</span> </h5>
+                    <p class="text-black">Get the latest beauty tips straight to your inbox. Can’t wait to connect!</p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <input type="email" class="form-control" placeholder="Enter Email"><button
+                            class="btn btn-dark">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+     <!--  [Sumit Day-3 Task-1] -->
+
+
+
+
+    
+
+ 
   </body>
 </html>
