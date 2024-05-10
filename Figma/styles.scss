@@ -1,5 +1,4 @@
 
-
 body {
     max-width: 1800px;
     margin: auto;
@@ -51,10 +50,11 @@ body {
                 top: 28vh;
                 right: 21px;
                 position: absolute;
-                height: 35px;
-                width: 35px;
+                height: 5vh;
+                width: 2vw;
                 background-color: white;
                 border-radius: 35px;
+                visibility: visible;
             }
 
 
@@ -65,6 +65,7 @@ body {
                 color: #717171;
                 margin-left: 31px;
                 font-size: 12.19px;
+                text-align: left;
             }
 
             >h1 {
@@ -78,7 +79,7 @@ body {
 
             >p {
                 color: #05073C;
-                margin-left: 90px;
+                text-align: center;
                 font-family: Inter;
                 font-size: 12.49px;
                 font-weight: 400;
@@ -115,3 +116,25 @@ body {
         }
     }
 }
+
+
+
+@media (max-width: 1000px) {
+    .container{
+
+    >section#carts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        >div.cart{
+
+            >.icon{
+                
+                visibility: hidden;
+            }
+        }
+    }
+  }
+}
+  

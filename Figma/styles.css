@@ -46,10 +46,11 @@ body {
   top: 28vh;
   right: 21px;
   position: absolute;
-  height: 35px;
-  width: 35px;
+  height: 5vh;
+  width: 2vw;
   background-color: white;
   border-radius: 35px;
+  visibility: visible;
 }
 .container > section#carts > div.cart > .faded {
   font-family: Inter;
@@ -58,6 +59,7 @@ body {
   color: #717171;
   margin-left: 31px;
   font-size: 12.19px;
+  text-align: left;
 }
 .container > section#carts > div.cart > h1 {
   margin-left: 10px;
@@ -69,7 +71,7 @@ body {
 }
 .container > section#carts > div.cart > p {
   color: #05073C;
-  margin-left: 90px;
+  text-align: center;
   font-family: Inter;
   font-size: 12.49px;
   font-weight: 400;
@@ -97,4 +99,16 @@ body {
   font-size: 15.13px;
   line-height: 30px;
   margin: 0px;
+}
+
+@media (max-width: 1000px) {
+  .container > section#carts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .container > section#carts > div.cart > .icon {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=styles.css.map */
