@@ -7,8 +7,233 @@
     <link rel="stylesheet" href="styles.css">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style data-styled="active" data-styled-version="5.3.11"></style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            display: block;
+            margin: 0;
+        }
+
+        .navbar {
+            background: url('https://d32baadbbpueqt.cloudfront.net/Wtp/4fe18541-f1be-4bff-8997-236ab6922b5a.png');
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 140px;
+            padding-block: 6px;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .name {
+            flex: 2 1 0%;
+            position: relative;
+            height: 24px;
+            width: 100%;
+            display: block;
+            flex-direction: column;
+            animation: name 7s infinite;
+            z-index: 0;
+        }
+
+
+        .rotate {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: bold;
+            text-align: left;
+            cursor: pointer;
+
+        }
+
+        @keyframes name {
+            10% {
+                transform: translateY(0%);
+            }
+
+            30% {
+                transform: translateY(-100%);
+
+            }
+
+            50% {
+                transform: translateY(-200%);
+
+            }
+
+            70% {
+                transform: translateY(-300%);
+
+            }
+        }
+
+        h5 {
+            display: block;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+
+        .spans {
+            flex: 1 1 0%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .sp {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            gap: 4px;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container-fluid{
+            margin:0;
+            padding: 0;
+        }
+        
+      
+
+    </style>
 </head>
 <body>
-    <h2>Hello</h2>
+    <!-- Navbar-Top [Dhananjay Day-2 Task-1] -->
+    <header>
+        <nav>
+            <div style="height:9rem">
+                <div style="box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2);position: fixed;right: 0;left: 0;z-index: 100;top:0" class="fixed-top">
+            <div class="navbar">
+                <div class="name">
+                    <div class="rotate">
+                        <a class="link">New Launch: SUMMER MAKEUP KIT at Rs. 1799</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Exclusive Freebies on orders above Rs. 799</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Use code: SUGAR15 to get 15% OFF!</a>
+                    </div>
+                    <div class="rotate">
+                        <a class="link">Website Exclusive Kits & Combos Up To 25% OFF</a>
+                    </div>
+                </div>
+                <div class="spans">
+                    <div class="sp">
+                        <i class="fa fa-mobile" style="color: #ffffff;"></i>
+                        <span>GET APP</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>STORE</span>
+                    </div>
+                    <div>
+                        <img src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1862924f-1da6-49c4-bbe5-ad0bb3e4dfdd.png"
+                            alt="">
+                        <span>GIFT CARD</span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-circle-question"></i>
+                        <span>HELP</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- NavBar-mid-section-day-3 -->
+        <div class="d-flex py-3" style="background-color:#000; padding-bottom: 1rem;padding-top: 1rem;display: flex; position: relative;z-index: 1;">
+            <div style="cursor:pointer;justify-content: center;display: flex;width: 25%;flex: 0 0 auto;" class=" col-3 d-flex justify-content-center">
+                <div>
+                    <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;">
+                        <span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;">
+                            <img src="./logo.png">
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-between align-self-center" style="align-self: center;justify-content: space-between; display: flex; flex: 0 0 auto;width: 50%;">
+                <div class="col-11 d-flex navbarDropdown " style="height:40px;outline:1px solid #989898;border-radius:8px; position: relative;display: flex;width: 92%;flex: 0 0 auto;">
+                <input class="col-9 px-4 searchInput" style="background:#212121;border:1px solid #212121;font-size:14px;border-radius:8px 0px 0px 8px;color:white;outline: none;z-index: 100;padding-right: 1.5rem;padding-left: 1.5rem;width: 75%;flex: 0 0 auto;caret-color: #fc2779;margin: 0 ;font-family: inherit;line-height: inherit;" placeholder="Try  Liquid Lipstick" value>
+                <div class="col-1 d-flex justify-content-center pt-2 text-muted" style="background:#212121;z-index:100;color: #6c757d;padding-top: 0.5rem;justify-content: center;display: flex;width: 8%;flex: 0 0 auto;"></div>
+                <div class="col-2 d-flex justify-content-center py-2" style="background-color:white;color:#212121;font-size:15px;cursor:pointer;padding:10px;border-radius:0px 8px 8px 0px;padding-bottom: 0.5rem;padding-top: 0.5rem;justify-content: center;display: flex;flex: 0 0 auto;width: 17%;">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" alt="search_icon" style="height: 18px;width:18px;padding-top:4px;vertical-align:middle;">
+                        <path d="m15.646 14.651-2.942-2.944a7.246 7.246 0 0 0-.804-9.869A7.1 7.1 0 0 0 6.942.003 7.106 7.106 0 0 0 2.09 2.109 7.233 7.233 0 0 0 .003 7.004a7.24 7.24 0 0 0 1.819 5.003 7.093 7.093 0 0 0 9.78.812l2.918 2.944a.793.793 0 0 0 .868.175c.097-.04.185-.1.258-.175a.804.804 0 0 0 0-1.112ZM7.153 12.82a5.516 5.516 0 0 1-3.083-.944A5.59 5.59 0 0 1 2.025 9.36a5.648 5.648 0 0 1-.316-3.236 5.617 5.617 0 0 1 1.52-2.868A5.536 5.536 0 0 1 6.07 1.725a5.505 5.505 0 0 1 3.207.318 5.562 5.562 0 0 1 2.49 2.063 5.637 5.637 0 0 1-.69 7.072 5.526 5.526 0 0 1-3.925 1.64Z" fill="#212121"></path>
+
+                    </svg>Search
+                 </div>
+                 
+                </div>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-self-center" style="font-size:15px;align-self: center;justify-content: center;display: flex;flex: 0 0 auto;width: 17%;">
+                <div class="d-flex justify-content-center" style="justify-content: center;display: flex;">
+                    <div class="py-2" style="padding-top: 0.5rem;padding-bottom: 0.5rem;">
+                        <svg width="1em" height="1em" viewBox="0 0 19 20" xmlns="http://www.w3.org/2000/svg" fill="white" alt="person_icon" style="width:19px;height:19px;vertical-align:middle;">
+                            <path d="M9.5 0C4.253 0 0 4.367 0 9.753c0 5.387 4.253 9.753 9.5 9.753S19 15.14 19 9.753C19 4.367 14.747 0 9.5 0Zm0 2.714c2.126 0 3.848 1.768 3.848 3.95 0 2.183-1.722 3.952-3.848 3.952s-3.848-1.77-3.848-3.951c0-2.183 1.722-3.951 3.848-3.951Zm0 15.344c-2.445 0-4.636-1.114-6.12-2.874 1.234-2.151 3.512-3.596 6.12-3.596s4.886 1.445 6.12 3.596c-1.484 1.76-3.675 2.874-6.12 2.874Z"></path>
+                        </svg>
+                    </div>
+                    <div style="cursor:pointer;color:#FFFFFF;padding-top: 0.5rem;padding-bottom: 0.5rem;padding-left: 0.25rem;padding-right: 0.25rem;" class="px-1 py-2">Login/Register</div>
+                </div>
+            </div>
+            <div class="col-1 d-flex justify-content-start align-self-center py-1" style="padding-top: 0.25rem;padding-bottom: 0.25rem;align-self: center;justify-content: flex-start;display: flex;width: 9%;flex: 0 0 auto;">
+                <div class="px-2 position-relative" style="padding-right: 0.5rem;padding-left: 0.5rem;position: relative;">
+                    <svg width="18px" height="18px" viewBox="0 0 21 20" xmlns="http://www.w3.org/2000/svg" alt="favorite_icon" class="cursor" fill="white" style="cursor:pointer;vertical-align:middle">
+                        <path d="M19.071 2.37A6.639 6.639 0 0 0 14.908.5a6.675 6.675 0 0 0-4.4 1.244A6.677 6.677 0 0 0 5.855.507a6.622 6.622 0 0 0-4.263 2.204A6.374 6.374 0 0 0 .005 7.172a6.394 6.394 0 0 0 1.939 4.326l7.818 7.666a1.051 1.051 0 0 0 .745.304 1.066 1.066 0 0 0 .745-.304l7.82-7.666a6.446 6.446 0 0 0 1.427-2.094 6.342 6.342 0 0 0 0-4.94 6.445 6.445 0 0 0-1.428-2.093Zm-1.48 7.677-7.084 6.936-7.084-6.936A4.378 4.378 0 0 1 2.201 7.8a4.324 4.324 0 0 1 .25-2.535 4.423 4.423 0 0 1 1.64-1.975 4.555 4.555 0 0 1 2.48-.754 4.505 4.505 0 0 1 3.15 1.286 1.051 1.051 0 0 0 .744.304 1.067 1.067 0 0 0 .746-.304 4.536 4.536 0 0 1 3.103-1.07 4.524 4.524 0 0 1 3.013 1.296c.8.791 1.264 1.851 1.298 2.965a4.342 4.342 0 0 1-1.117 3.034h.083Z"></path>
+                    </svg>
+                </div>
+                <div class="px-2" style="padding-right: 0.5rem ;padding-left: 0.5rem;">
+                    <div class="position-relative float-end" style="position: relative;float: right;">
+                        <div class="position-relative" style="position: relative;">
+                            <svg width="1em" height="1em" viewBox="0 0 21 23" xmlns="http://www.w3.org/2000/svg" class style="color:white;font-size:22px;vertical-align:middle; cursor:pointere" fill="white">
+                                <path d="M15.22 6.049v.05h3.626c.304 0 .595.112.808.309.214.197.333.464.333.741v12.1c0 .86-.37 1.687-1.03 2.297-.662.61-1.559.953-2.495.953H4.546a3.682 3.682 0 0 1-2.494-.953c-.661-.61-1.031-1.436-1.031-2.297v-12.1c0-.277.119-.544.333-.741.213-.197.504-.309.808-.309h3.625V4.949c0-1.152.496-2.258 1.38-3.075C8.052 1.058 9.252.6 10.504.6c1.252 0 2.452.46 3.337 1.275.884.817 1.38 1.923 1.38 3.075v1.1Zm-2.333.05h.05V4.949c0-.598-.257-1.17-.714-1.592a2.538 2.538 0 0 0-1.719-.658c-.644 0-1.263.236-1.72.658a2.168 2.168 0 0 0-.713 1.592V6.099h4.816Zm-9.533 2.1h-.05v11.05c0 .306.132.6.365.815.233.215.549.335.877.335h11.916c.328 0 .644-.12.877-.335.233-.216.365-.509.365-.815V8.199H15.221V9.349c0 .277-.12.544-.333.741a1.194 1.194 0 0 1-.809.309c-.304 0-.595-.111-.809-.309a1.009 1.009 0 0 1-.333-.741V8.199H8.071V9.349c0 .277-.12.544-.333.741a1.194 1.194 0 0 1-.809.309c-.304 0-.595-.111-.809-.309a1.009 1.009 0 0 1-.333-.741V8.199H3.354Z" stroke="#FDFCFC" stroke-width="0.1"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 cursor" style="cursor: pointer;padding-left: 0.5rem;padding-right: 0.5rem;">
+                    <svg width="18px" height="18px" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg" fill="white" alt="discount_icon" style="vertical-align:middle;width: 18px; height:18px">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="m8.744 3.662.832-.803.832.803a3 3 0 0 0 2.504.813l1.146-.162.2 1.134a3 3 0 0 0 1.55 2.132l1.018.54-.505 1.03a3 3 0 0 0 0 2.639l.505 1.031-1.018.54a3 3 0 0 0-1.55 2.131l-.2 1.134-1.146-.162a3 3 0 0 0-2.504.813l-.832.804-.832-.804a3 3 0 0 0-2.504-.813l-1.146.162-.2-1.134a3 3 0 0 0-1.55-2.132l-1.018-.539.505-1.031a3 3 0 0 0 0-2.638l-.505-1.032 1.018-.539a3 3 0 0 0 1.55-2.132l.2-1.134 1.146.162a3 3 0 0 0 2.504-.813ZM8.88.75a1 1 0 0 1 1.39 0l1.527 1.475a1 1 0 0 0 .834.27l2.104-.296a1 1 0 0 1 1.125.817l.366 2.086a1 1 0 0 0 .517.71l1.874.993a1 1 0 0 1 .43 1.324l-.93 1.901a1 1 0 0 0 0 .88l.93 1.9a1 1 0 0 1-.43 1.324l-1.874.993a1 1 0 0 0-.517.71l-.366 2.087a1 1 0 0 1-1.125.817l-2.104-.297a1 1 0 0 0-.834.27l-1.527 1.475a1 1 0 0 1-1.39 0l-1.527-1.474a1 1 0 0 0-.834-.271l-2.104.297a1 1 0 0 1-1.125-.817l-.366-2.087a1 1 0 0 0-.517-.71l-1.874-.993a1 1 0 0 1-.43-1.323l.93-1.902a1 1 0 0 0 0-.879l-.93-1.901a1 1 0 0 1 .43-1.324l1.874-.992a1 1 0 0 0 .517-.711l.366-2.086a1 1 0 0 1 1.125-.817l2.104.297a1 1 0 0 0 .834-.271L8.881.749Zm4.524 7.31a1 1 0 0 0-1.413-1.415l-6.245 6.234a1 1 0 1 0 1.413 1.416l6.245-6.235Zm-4.87-.188A1.56 1.56 0 0 1 6.974 9.43 1.56 1.56 0 1 1 8.535 7.87Zm3.642 6.754a1.56 1.56 0 0 0 1.561-1.559 1.56 1.56 0 0 0-1.56-1.558 1.56 1.56 0 1 0 0 3.117Z"></path>
+                    </svg>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+        </nav>
+    </header>
 </body>
 </html>
