@@ -5,6 +5,7 @@
         position: relative;
         top: 0;
         box-sizing: border-box;
+        padding-top: 105px;
         >.text {
             box-sizing: border-box;
             >h1 {
@@ -62,4 +63,122 @@
             }
         }
     }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+        >header#center {
+                max-width: 1320px;
+                margin: auto;
+                padding-inline: 15px;
+
+                >.heading {
+                    padding-top: 115px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-family: "Inter", sans-serif;
+                        color: #05073c;
+                        >h1{
+                            padding-right: 788px;
+                            padding-top: 5px;
+                            font-weight: 700;
+                            
+                        }
+                        >span{
+                            font-family: "Inter", sans-serif;
+                                font-size: 14.3px;
+                                font-weight: 400;
+                                line-height: 28.13px;
+                                text-align: left;
+                                padding-right: 40px;
+                                padding-top: 21.88px;
+                        }
+                    }
+            }
+
+            section>.images {
+                padding: 0;
+                padding-top: 40px;
+                padding-inline: 15px;
+                display: grid;
+                gap: 30px;
+                grid-template-areas:
+                    "a1 a2 a3 a3"
+                    "a4 a2 a5 a6";
+                justify-content: center;
+                align-items: center;
+                max-width: 1300px;
+                margin: auto;
+                >#im1 {
+                        display: grid;
+                        grid-area: a1;
+                    }
+
+                >.imgtxt{
+                    position: relative;
+                    >img {
+                            border-radius: 12px;
+                    }
+                    >p {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 30px;
+                        font-family: Inter;
+                        font-size: 19.06px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        text-align: left;
+                        color: #ffffff;
+                    }
+                }
+                >#im1 {
+                    display: grid;
+                    grid-area: a1;
+                }
+
+                >#im2 {
+                    display: grid;
+                    grid-area: a2;
+                }
+
+                >#im3 {
+                    display: grid;
+                    grid-area: a3;
+                }
+
+                >#im4 {
+                    display: grid;
+                    grid-area: a4;
+                }
+
+                >#im5 {
+                    display: grid;
+                    grid-area: a5;
+                }
+
+                >#im6 {
+                    display: grid;
+                    grid-area: a6;
+                }
+
+                >.imgtxt {
+                    position: relative;
+                }
+                >p {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 30px;
+                    font-family: Inter;
+                    font-size: 19.06px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #ffffff;
+                }
+            }
+
 }
