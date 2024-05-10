@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$primary-color: rgba(255, 255, 255, 1);
+
+body {
+    max-width: 1800px; // Make sure to end each property with a semicolon
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    color: $primary-color;
+}
+
+.container {
+    margin: 105px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/text.png);
+    flex-direction: row-reverse;
+    width: 1530px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.title-container {
+    width: 365px;
+    height: 104px;
+    padding-top: 100px;
+    padding-right: 330px;
+    font-weight: 700;
+}
+
+.title-container + div > p {
+    width: 313px;
+    height: 48px;
+    padding-top: 14px;
+    padding-right: 51px;
+    font-weight: 400;
+}
+
+.input-container > div {
+    width: 287px;
+    height: 32px;
+    padding-bottom: 2px;
+    font-weight: 400;
+}
+
+.input-container > input {
+    width: 350px;
+    height: 60px;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: none;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.input-container > button {
+    width: 107px;
+    height: 60px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: none;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
