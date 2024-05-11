@@ -1,3 +1,121 @@
+body {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.carts-container {
+  margin: 105px !important;
+}
+.carts-container > section.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Inter;
+}
+.carts-container > section.heading > h1 {
+  padding-bottom: 40px;
+  margin: 0;
+  line-height: 45px;
+  font-weight: 700;
+  font-size: 29.41px;
+  color: #05073c;
+}
+.carts-container > section.heading > p {
+  font-weight: 400;
+  line-height: 0.13px;
+  font-size: 14.3px;
+}
+.carts-container > section.carts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+}
+.carts-container > section.carts > div.cart:hover {
+  cursor: pointer;
+}
+.carts-container > section.carts > div.cart {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+  padding: 11px;
+  position: relative;
+  background-color: #ffffff;
+}
+.carts-container > section.carts > div.cart > img {
+  width: 100%;
+  border-radius: 12px;
+}
+.carts-container > section.carts > div.cart > .icon {
+  top: 43%;
+  right: 21px;
+  position: absolute;
+  height: 6%;
+  width: 12%;
+  background-color: white;
+  border-radius: 50%;
+  visibility: visible;
+}
+.carts-container > section.carts > div.cart > .faded {
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24.38px;
+  color: #717171;
+  margin-left: 31px;
+  font-size: 12.19px;
+  text-align: left;
+}
+.carts-container > section.carts > div.cart > h1 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 15.88px;
+  line-height: 24px;
+  color: #05073c;
+  font-family: Inter;
+}
+.carts-container > section.carts > div.cart > p {
+  color: #05073c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.49px;
+  font-weight: 400;
+  line-height: 24.38px;
+}
+.carts-container > section.carts > div.cart .text {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border-top: 1px solid #e7e6e6;
+}
+.carts-container > section.carts > div.cart .text > p {
+  color: #05073c;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+.carts-container > section.carts > div.cart .text > p > span {
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  font-size: 15.13px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.bg-color {
+  background-color: #f5f5f5;
+  padding: 115px 105px 120px 105px;
+  margin: 0 135px !important;
+}
+
+.add-margin {
+  margin: 0 135px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -6,6 +124,7 @@
   position: relative;
   top: 0;
   box-sizing: border-box;
+  padding-top: 105px;
 }
 .container > .img > .text {
   box-sizing: border-box;
@@ -24,7 +143,7 @@
   font-weight: 700;
   line-height: 52px;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
 }
 .container > .img > .text > h1 > span {
   font-family: Inter;
@@ -32,7 +151,7 @@
   font-weight: 700;
   line-height: 52px;
   text-align: left;
-  color: #EB662B;
+  color: #eb662b;
   box-sizing: border-box;
 }
 .container > .img > .text > p {
@@ -45,7 +164,7 @@
   font-weight: 400;
   line-height: 28.13px;
   text-align: left;
-  color: #05073C;
+  color: #05073c;
   box-sizing: border-box;
 }
 .container > .img > .text > button {
@@ -54,10 +173,137 @@
   margin-top: 385px;
   margin-left: 120px;
   padding: 17px 45px;
-  background-color: #EB662B;
+  background-color: #eb662b;
   border: none;
   border-radius: 12px;
   opacity: 0px;
   box-sizing: border-box;
   color: white;
+}
+.container > .img > .text > button:hover {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container > header#center {
+  max-width: 1320px;
+  margin: auto;
+  padding-inline: 15px;
+}
+.container > header#center > .heading {
+  padding-top: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: #05073c;
+}
+.container > header#center > .heading > h1 {
+  padding-right: 788px;
+  padding-top: 5px;
+  font-weight: 700;
+  font-family: Inter;
+  font-size: 29.88px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+}
+.container > header#center > .heading > span {
+  font-family: "Inter", sans-serif;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  padding-right: 40px;
+  padding-top: 21.88px;
+}
+.container section > .images {
+  padding: 0;
+  padding-top: 40px;
+  padding-inline: 15px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "a1 a2 a3 a3" "a4 a2 a5 a6";
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+}
+.container section > .images > #im1 {
+  display: grid;
+  grid-area: a1;
+}
+.container section > .images > .imgtxt {
+  position: relative;
+}
+.container section > .images > .imgtxt > img {
+  border-radius: 12px;
+}
+.container section > .images > .imgtxt > img:hover {
+  cursor: pointer;
+}
+.container section > .images > .imgtxt > p {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.06px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+.container section > .images > #im1 {
+  display: grid;
+  grid-area: a1;
+}
+.container section > .images > #im2 {
+  display: grid;
+  grid-area: a2;
+}
+.container section > .images > #im3 {
+  display: grid;
+  grid-area: a3;
+}
+.container section > .images > #im4 {
+  display: grid;
+  grid-area: a4;
+}
+.container section > .images > #im5 {
+  display: grid;
+  grid-area: a5;
+}
+.container section > .images > #im6 {
+  display: grid;
+  grid-area: a6;
+}
+.container section > .images > .imgtxt {
+  position: relative;
+}
+.container section > .images > p {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-family: Inter;
+  font-size: 19.06px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .carts-container > section.carts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .carts-container > section.carts > div.cart > .icon {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=styles.css.map */

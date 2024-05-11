@@ -1,65 +1,345 @@
-.container{ 
+// TASK -FIND POPULAR TOURS [RITIKA DAY-3 TASK 1]
+body {
+  max-width: 1800px;
+  margin: auto;
+}
+
+.carts-container {
+  margin: 105px !important;
+
+  > section.heading {
     display: flex;
-    justify-content: center;
-    >.img{
-        position: relative;
-        top: 0;
-        box-sizing: border-box;
-        >.text {
-            box-sizing: border-box;
-            >h1 {
-                box-sizing: border-box;
-                padding-top: 160px;
-                padding-left: 120px;
-                width: 500.14px;
-                height: 156px;
-                top: 3032.38px;
-                        
-                position: absolute;
-                top: 0;
-                font-family: Inter;
-                font-size: 40px;
-                font-weight: 700;
-                line-height: 52px;
-                text-align: left;
-                color: #05073C;
-                
-                >span{
-                    font-family: Inter;
-                    font-size: 40px;
-                    font-weight: 700;
-                    line-height: 52px;
-                    text-align: left;
-                    color: #EB662B;
-                    box-sizing: border-box;
-                }        
-            }
-            >p {
-                position: absolute;
-                top: 0;
-                padding-top: 326px;
-                padding-left: 120px;
-                font-family: Inter;
-                font-size: 14.77px;
-                font-weight: 400;
-                line-height: 28.13px;
-                text-align: left;
-                color: #05073C;
-                box-sizing: border-box;
-            }
-            >button{
-                position: absolute;
-                top: 0;
-                margin-top: 385px;
-                margin-left: 120px;
-                padding: 17px 45px;
-                background-color: #EB662B;
-                border: none;
-                border-radius: 12px ;
-                opacity: 0px;
-                box-sizing: border-box;
-                color: white;
-            }
-        }
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: Inter;
+
+    > h1 {
+      padding-bottom: 40px;
+      margin: 0;
+      line-height: 45px;
+      font-weight: 700;
+      font-size: 29.41px;
+      color: #05073c;
+
     }
+
+    > p {
+      font-weight: 400;
+      line-height: 0.13px;
+      font-size: 14.3px;
+    }
+  }
+
+  > section.carts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    >div.cart:hover{
+        cursor: pointer;
+    }
+    > div.cart {
+      width: fit-content;
+      border: 1px solid #e7e6e6;
+      border-radius: 12px;
+      padding: 11px;
+      position: relative;
+      background-color: #ffffff;
+
+      > img {
+        width: 100%;
+        border-radius: 12px;
+      }
+
+      > .icon {
+        top: 43%;
+        right: 21px;
+        position: absolute;
+        height: 6%;
+        width: 12%;
+        background-color: white;
+        border-radius: 50%;
+        visibility: visible;
+      }
+
+      > .faded {
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 24.38px;
+        color: #717171;
+        margin-left: 31px;
+        font-size: 12.19px;
+        text-align: left;
+      }
+
+      > h1 {
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 15.88px;
+        line-height: 24px;
+        color: #05073c;
+        font-family: Inter;
+      }
+
+      > p {
+        color: #05073c;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12.49px;
+        font-weight: 400;
+        line-height: 24.38px;
+      }
+
+      .text {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        border-top: 1px solid #e7e6e6;
+
+        > p {
+          color: #05073c;
+          font-family: Inter;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 24.38px;
+          text-align: left;
+
+          > span {
+            font-size: 14.5px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            font-size: 15.13px;
+            line-height: 30px;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// TASK - TRENDING TOURS [RITIKA DAY-5 TASK 1]
+
+.bg-color {
+  background-color: #f5f5f5;
+  padding: 115px 105px 120px 105px;
+  margin: 0 135px  !important;
+}
+
+// SAGAR DAY-4
+.add-margin {
+  margin: 0 135px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  > .img {
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 105px;
+    > .text {
+      box-sizing: border-box;
+      > h1 {
+        box-sizing: border-box;
+        padding-top: 160px;
+        padding-left: 120px;
+        width: 500.14px;
+        height: 156px;
+        top: 3032.38px;
+
+        position: absolute;
+        top: 0;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        text-align: left;
+        color: #05073c;
+
+        > span {
+          font-family: Inter;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 52px;
+          text-align: left;
+          color: #eb662b;
+          box-sizing: border-box;
+        }
+      }
+      > p {
+        position: absolute;
+        top: 0;
+        padding-top: 326px;
+        padding-left: 120px;
+        font-family: Inter;
+        font-size: 14.77px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        color: #05073c;
+        box-sizing: border-box;
+      }
+      > button {
+        position: absolute;
+        top: 0;
+        margin-top: 385px;
+        margin-left: 120px;
+        padding: 17px 45px;
+        background-color: #eb662b;
+        border: none;
+        border-radius: 12px;
+        opacity: 0px;
+        box-sizing: border-box;
+        color: white;
+      }
+      >button:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  > header#center {
+    max-width: 1320px;
+    margin: auto;
+    padding-inline: 15px;
+
+    > .heading {
+      padding-top: 115px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter", sans-serif;
+      color: #05073c;
+      > h1 {
+        padding-right: 788px;
+        padding-top: 5px;
+        font-weight: 700;
+        font-family: Inter;
+font-size: 29.88px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+
+      }
+      > span {
+        font-family: "Inter", sans-serif;
+        font-size: 14.3px;
+        font-weight: 400;
+        line-height: 28.13px;
+        text-align: left;
+        padding-right: 40px;
+        padding-top: 21.88px;
+      }
+    }
+  }
+
+  section > .images {
+    padding: 0;
+    padding-top: 40px;
+    padding-inline: 15px;
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+      "a1 a2 a3 a3"
+      "a4 a2 a5 a6";
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    > #im1 {
+      display: grid;
+      grid-area: a1;
+    }
+
+    > .imgtxt {
+      position: relative;
+      > img {
+        border-radius: 12px;
+      }
+      >img:hover{
+        cursor: pointer;
+      }
+      > p {
+        position: absolute;
+        bottom: 15px;
+        left: 30px;
+        font-family: Inter;
+        font-size: 19.06px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+    > #im1 {
+      display: grid;
+      grid-area: a1;
+    }
+
+    > #im2 {
+      display: grid;
+      grid-area: a2;
+    }
+
+    > #im3 {
+      display: grid;
+      grid-area: a3;
+    }
+
+    > #im4 {
+      display: grid;
+      grid-area: a4;
+    }
+
+    > #im5 {
+      display: grid;
+      grid-area: a5;
+    }
+
+    > #im6 {
+      display: grid;
+      grid-area: a6;
+    }
+
+    > .imgtxt {
+      position: relative;
+    }
+    > p {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      font-family: Inter;
+      font-size: 19.06px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+}
+
+// Ritika ->
+
+@media (max-width: 1000px) {
+  .carts-container {
+    > section.carts {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      gap: 30px;
+      > div.cart {
+        > .icon {
+          visibility: hidden;
+        }
+      }
+    }
+  }
 }
