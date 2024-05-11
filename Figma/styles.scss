@@ -4,7 +4,7 @@
     >.img{
         position: relative;
         top: 0;
-        box-sizing: border-box;
+        // box-sizing: border-box;
         padding-top: 105px;
         >.text {
             box-sizing: border-box;
@@ -70,9 +70,10 @@
     margin: 0;
 }
 .container{
+    max-width: 1320px;
+        height: auto;
+        margin: auto;
         >header#center {
-                max-width: 1320px;
-                margin: auto;
                 padding-inline: 15px;
 
                 >.heading {
@@ -185,6 +186,9 @@
 
 
 .figma{
+    max-width: 1320px;
+        height: auto;
+        margin: auto;
     .reviewBG{
         display: flex;
         justify-content: center; 
