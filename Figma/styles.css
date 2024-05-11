@@ -169,18 +169,18 @@
   color: #ffffff;
 }
 
-.figma {
+section .figma {
   max-width: 1320px;
   height: auto;
   margin: auto;
 }
-.figma .reviewBG {
+section .figma .reviewBG {
   display: flex;
   justify-content: center;
   position: relative;
   top: 0;
 }
-.figma .reviewBG > .box {
+section .figma .reviewBG > .box {
   width: 1320px;
   height: 610.84px;
   padding: 0px 345px 0px 345px;
@@ -192,11 +192,11 @@
   flex-direction: column;
   align-items: center;
 }
-.figma .reviewBG > .box > .reviewhead {
+section .figma .reviewBG > .box > .reviewhead {
   display: flex;
   align-items: center;
 }
-.figma .reviewBG > .box > .reviewhead > h1 {
+section .figma .reviewBG > .box > .reviewhead > h1 {
   width: 271.5px;
   height: 45px;
   left: 524.34px;
@@ -209,7 +209,7 @@
   text-align: center;
   color: #05073C;
 }
-.figma .reviewBG > .box > .reviewdetails {
+section .figma .reviewBG > .box > .reviewdetails {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
@@ -222,17 +222,17 @@
   opacity: 0px;
   text-align: center;
 }
-.figma .reviewBG > .box > .reviewdetails > img:nth-of-type(1) {
+section .figma .reviewBG > .box > .reviewdetails > img:nth-of-type(1) {
   position: absolute;
   z-index: 1;
 }
-.figma .reviewBG > .box > .reviewdetails > img:nth-of-type(2) {
+section .figma .reviewBG > .box > .reviewdetails > img:nth-of-type(2) {
   position: absolute;
   top: 107px;
   left: 935px;
   z-index: 2;
 }
-.figma .reviewBG > .box > .reviewdetails > p:nth-of-type(1) {
+section .figma .reviewBG > .box > .reviewdetails > p:nth-of-type(1) {
   padding-top: 170px;
   width: 149.65px;
   height: 33.75px;
@@ -247,7 +247,7 @@
   text-align: center;
   color: #EB662B;
 }
-.figma .reviewBG > .box > .reviewdetails > p:nth-of-type(2) {
+section .figma .reviewBG > .box > .reviewdetails > p:nth-of-type(2) {
   padding-top: 25px;
   font-family: Inter;
   font-size: 19.53px;
@@ -256,7 +256,7 @@
   text-align: center;
   color: #05073C;
 }
-.figma .reviewBG > .box > .reviewdetails > p:nth-of-type(3) {
+section .figma .reviewBG > .box > .reviewdetails > p:nth-of-type(3) {
   padding-top: 28px;
   width: 84.76px;
   height: 21px;
@@ -271,7 +271,7 @@
   text-align: center;
   color: #05073C;
 }
-.figma .reviewBG > .box > .reviewdetails > p:nth-of-type(4) {
+section .figma .reviewBG > .box > .reviewdetails > p:nth-of-type(4) {
   padding-top: 2.6px;
   width: 54.65px;
   height: 24px;
