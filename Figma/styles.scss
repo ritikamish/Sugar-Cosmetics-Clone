@@ -182,3 +182,29 @@
             }
 
 }
+.container-xxl{
+    .reviewBG{
+        display: flex;
+        justify-content: center;
+        
+        position: relative;
+        top: 0;
+
+        
+        >.reviewhead {
+            padding-top: 120px;
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: center;
+
+        }
+        >.reviewdetails {
+            position: absolute;
+            top: 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+}

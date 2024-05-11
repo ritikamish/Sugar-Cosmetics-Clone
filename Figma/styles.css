@@ -165,4 +165,24 @@
   line-height: 30px;
   text-align: left;
   color: #ffffff;
+}
+
+.container-xxl .reviewBG {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+}
+.container-xxl .reviewBG > .reviewhead {
+  padding-top: 120px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+.container-xxl .reviewBG > .reviewdetails {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
