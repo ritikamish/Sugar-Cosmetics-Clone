@@ -3,56 +3,57 @@ body {
   margin: auto;
 }
 
-.container {
+.carts-container {
   margin: 105px !important;
 }
-.container > section#heading {
+.carts-container > section.heading {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   font-family: Inter;
 }
-.container > section#heading > h1 {
+.carts-container > section.heading > h1 {
   padding-bottom: 40px;
   margin: 0;
   line-height: 45px;
   font-weight: 700;
   font-size: 29.41px;
 }
-.container > section#heading > p {
+.carts-container > section.heading > p {
   font-weight: 400;
   line-height: 0.13px;
   font-size: 14.3px;
 }
-.container > section#carts {
+.carts-container > section.carts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 30px;
 }
-.container > section#carts > div.cart {
+.carts-container > section.carts > div.cart {
   width: -moz-fit-content;
   width: fit-content;
   border: 1px solid #E7E6E6;
   border-radius: 12px;
   padding: 11px;
   position: relative;
+  background-color: #FFFFFF;
 }
-.container > section#carts > div.cart > img {
+.carts-container > section.carts > div.cart > img {
   width: 100%;
   border-radius: 12px;
 }
-.container > section#carts > div.cart > .icon {
-  top: 28vh;
+.carts-container > section.carts > div.cart > .icon {
+  top: 34%;
   right: 21px;
   position: absolute;
-  height: 5vh;
-  width: 2vw;
+  height: 6%;
+  width: 12%;
   background-color: white;
-  border-radius: 35px;
+  border-radius: 50%;
   visibility: visible;
 }
-.container > section#carts > div.cart > .faded {
+.carts-container > section.carts > div.cart > .faded {
   font-family: Inter;
   font-weight: 400;
   line-height: 24.38px;
@@ -61,7 +62,7 @@ body {
   font-size: 12.19px;
   text-align: left;
 }
-.container > section#carts > div.cart > h1 {
+.carts-container > section.carts > div.cart > h1 {
   margin-left: 10px;
   font-weight: 500;
   font-size: 15.88px;
@@ -69,7 +70,7 @@ body {
   color: #05073C;
   font-family: Inter;
 }
-.container > section#carts > div.cart > p {
+.carts-container > section.carts > div.cart > p {
   color: #05073C;
   text-align: center;
   font-family: Inter;
@@ -77,13 +78,13 @@ body {
   font-weight: 400;
   line-height: 24.38px;
 }
-.container > section#carts > div.cart .text {
+.carts-container > section.carts > div.cart .text {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
   border-top: 1px solid #E7E6E6;
 }
-.container > section#carts > div.cart .text > p {
+.carts-container > section.carts > div.cart .text > p {
   color: #05073C;
   font-family: Inter;
   font-size: 13px;
@@ -91,7 +92,7 @@ body {
   line-height: 24.38px;
   text-align: left;
 }
-.container > section#carts > div.cart .text > p > span {
+.carts-container > section.carts > div.cart .text > p > span {
   font-size: 14.5px;
   font-weight: 500;
   line-height: 30px;
@@ -101,14 +102,20 @@ body {
   margin: 0px;
 }
 
+.bg-color {
+  background-color: #F5F5F5;
+  padding: 115px 105px 120px 105px;
+  margin: 0 135px 120px !important;
+}
+
 @media (max-width: 1000px) {
-  .container > section#carts {
+  .container > section.carts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 30px;
   }
-  .container > section#carts > div.cart > .icon {
+  .container > section.carts > div.cart > .icon {
     visibility: hidden;
   }
 }/*# sourceMappingURL=styles.css.map */

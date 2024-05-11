@@ -1,13 +1,14 @@
-
+// TASK -FIND POPULAR TOURS [RITIKA DAY-3 TASK 1]
 body {
     max-width: 1800px;
     margin: auto;
 }
 
-.container {
+
+.carts-container {
     margin: 105px  !important;
 
-    >section#heading {
+    >section.heading {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -28,7 +29,7 @@ body {
         }
     }
 
-    >section#carts {
+    >section.carts {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -40,6 +41,7 @@ body {
             border-radius: 12px;
             padding: 11px;
             position: relative;
+            background-color: #FFFFFF;
 
             >img {
                 width: 100%;
@@ -47,18 +49,17 @@ body {
             }
 
             >.icon {
-                top: 28vh;
+                top: 34%;
                 right: 21px;
                 position: absolute;
-                height: 5vh;
-                width: 2vw;
+                height: 6%;
+                width: 12%;
                 background-color: white;
-                border-radius: 35px;
+                border-radius: 50%;
                 visibility: visible;
             }
 
-
-            >.faded {
+       >.faded {
                 font-family: Inter;
                 font-weight: 400;
                 line-height: 24.38px;
@@ -118,11 +119,21 @@ body {
 }
 
 
+// 
+
+
+.bg-color{
+    background-color: #F5F5F5;
+    padding: 115px 105px 120px 105px;
+    margin: 0 135px 120px  !important;
+}
+
+
 
 @media (max-width: 1000px) {
     .container{
 
-    >section#carts{
+    >section.carts{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
