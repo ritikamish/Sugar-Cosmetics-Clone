@@ -1,3 +1,73 @@
+.main {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main > .head {
+  display: flex;
+  justify-content: space-between;
+}
+.main > .head > h1 {
+  font-family: Inter;
+  font-size: 29.88px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #05073C;
+  width: 320.92px;
+  height: 45px;
+  top: 5px;
+  left: 15px;
+  gap: 0px;
+  opacity: 0px;
+}
+.main > .head > span {
+  padding-top: 40px;
+  padding-right: 40px;
+  font-family: Inter;
+  font-size: 14.3px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073C;
+  width: 44.79px;
+  height: 28.13px;
+  top: 21.88px;
+  left: 1234.41px;
+  gap: 0px;
+  opacity: 0px;
+}
+.main > .countries {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.main > .countries > .det p:nth-of-type(1) {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  font-family: Inter;
+  font-size: 15.25px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #05073C;
+}
+.main > .countries > .det > p:nth-of-type(2) {
+  padding: 0;
+  margin: 0;
+  padding-top: 4px;
+  font-family: Inter;
+  font-size: 13.56px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: center;
+}
+
 body {
   max-width: 1800px;
   margin: auto;
