@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .container {
+  max-width: 1300px;
+  margin: auto;
+}
+body .navbar span h6 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body nav {
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+body nav div {
+  display: flex;
+  gap: 20px;
+}
+body div > button {
+  background-color: #EB662B;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  padding: 12px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+body div > span {
+  left: 200px;
+}
+body .image {
+  font-family: Inter;
+  font-size: 69.73px;
+  font-weight: 600;
+  line-height: 84px;
+  text-align: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 10%;
+  text-align: center;
+}
+body .image img {
+  border-radius: 10px;
+  width: 100%;
+}
+body div > p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 84px;
+  text-align: center;
+  top: 35%;
+  position: absolute;
+  left: 600px;
+}
+body .heading {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 25%;
+  left: -750px;
+  width: 180%;
+  text-align: center;
+  font-size: 80px;
+}
+body .section {
+  width: 850px;
+  height: 80px;
+  top: 490.13px;
+  left: 535px;
+  padding: 10px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+}
+body .searchbox {
+  height: 10px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  padding-top: 20%;
+  left: 50px;
+}
+body .searchbox input, body .searchbox button {
+  width: 77%;
+  padding-top: 10%;
+  border: 2px solid;
+  border-right: 0px;
+  font-size: 18px;
+  padding: 12px;
+  background: #EB662B;
+  border: none;
+  position: relative;
+}
+body .searchbox button {
+  width: 20%;
+  color: rgb(255, 255, 255);
+  float: right;
+  border: none;
+}
+body .searchbox button:hover {
+  opacity: 8;
+}
+body .searchbox input:hover {
+  opacity: 8;
+}/*# sourceMappingURL=styles.css.map */
