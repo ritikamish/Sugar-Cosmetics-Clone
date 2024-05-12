@@ -67,15 +67,15 @@
   margin: 0;
 }
 
-.container {
+section#ppl > .container {
   max-width: 1320px;
   height: auto;
   margin: auto;
 }
-.container > header#center {
+section#ppl > .container > header#center {
   padding-inline: 15px;
 }
-.container > header#center > .heading {
+section#ppl > .container > header#center > .heading {
   padding-top: 115px;
   display: flex;
   justify-content: space-between;
@@ -83,12 +83,12 @@
   font-family: "Inter", sans-serif;
   color: #05073c;
 }
-.container > header#center > .heading > h1 {
-  padding-right: 880px;
+section#ppl > .container > header#center > .heading > h1 {
+  padding-right: 950px;
   padding-top: 5px;
   font-weight: 700;
 }
-.container > header#center > .heading > span {
+section#ppl > .container > header#center > .heading > span {
   font-family: "Inter", sans-serif;
   font-size: 14.3px;
   font-weight: 400;
@@ -97,7 +97,7 @@
   padding-right: 40px;
   padding-top: 21.88px;
 }
-.container section > .images {
+section#ppl > .container section > .images {
   padding: 0;
   padding-top: 40px;
   padding-inline: 15px;
@@ -109,17 +109,17 @@
   max-width: 1300px;
   margin: auto;
 }
-.container section > .images > #im1 {
+section#ppl > .container section > .images > #im1 {
   display: grid;
   grid-area: a1;
 }
-.container section > .images > .imgtxt {
+section#ppl > .container section > .images > .imgtxt {
   position: relative;
 }
-.container section > .images > .imgtxt > img {
+section#ppl > .container section > .images > .imgtxt > img {
   border-radius: 12px;
 }
-.container section > .images > .imgtxt > p {
+section#ppl > .container section > .images > .imgtxt > p {
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -130,34 +130,34 @@
   text-align: left;
   color: #ffffff;
 }
-.container section > .images > #im1 {
+section#ppl > .container section > .images > #im1 {
   display: grid;
   grid-area: a1;
 }
-.container section > .images > #im2 {
+section#ppl > .container section > .images > #im2 {
   display: grid;
   grid-area: a2;
 }
-.container section > .images > #im3 {
+section#ppl > .container section > .images > #im3 {
   display: grid;
   grid-area: a3;
 }
-.container section > .images > #im4 {
+section#ppl > .container section > .images > #im4 {
   display: grid;
   grid-area: a4;
 }
-.container section > .images > #im5 {
+section#ppl > .container section > .images > #im5 {
   display: grid;
   grid-area: a5;
 }
-.container section > .images > #im6 {
+section#ppl > .container section > .images > #im6 {
   display: grid;
   grid-area: a6;
 }
-.container section > .images > .imgtxt {
+section#ppl > .container section > .images > .imgtxt {
   position: relative;
 }
-.container section > .images > p {
+section#ppl > .container section > .images > p {
   position: absolute;
   bottom: 30px;
   left: 30px;
