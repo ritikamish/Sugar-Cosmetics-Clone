@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1800px;
+    margin: auto;
+    
+    
+    .navbar span h6 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    nav {
+      width: 100%;
+      display: flex;
+      padding-left: 20px;
+      justify-content: space-between;
+      padding: 20px 15px;
+      align-items: center;
+      box-sizing: border-box;
+      font-family: "Open Sans";
+  
+      div {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  
+    div > button {
+      background-color: #eb662b;
+      cursor: pointer;
+      color: white;
+      box-sizing: border-box;
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      padding: 12px 8px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      -moz-column-gap: 8px;
+      column-gap: 8px;
+    }
+  
+    div > span {
+      left: 200px;
+      gap: 20px;
+    }
+  
+    section {
+      width: 1800px;
+      height: 702.13px;
+      top: 88px;
+      left: 60px;
+      gap: 0px;
+      border-radius: 12px;
+      opacity: 0px;
+      background-image: url(Section.png);
+  
+      #box1 {
+        background-color: white;
+        border: 2px solid rgb(255, 255, 255);
+        width: 850px;
+        height: 100px;
+        position: absolute;
+        top: 490.13px;
+        left: 535px;
+        padding: 5px;
+        gap: 0px;
+        border-radius: 7px;
+        opacity: 0px;
+        margin-top: 100px;
+  
+        > div {
+          display: inline-flex;
+          flex-direction: row;
+          width: 224.34px;
+          height: 50px;
+          top: 5px;
+          left: 10px;
+          padding: 0px 35.98px 0px 0px;
+          gap: 0px;
+          opacity: 0px;
+          margin-top: 20px;
+        }
+      }
+    }
+  
+    .whitebutton {
+      height: 40px;
+      width: 50px;
+      border: 2px solid rgb(236, 226, 226);
+      background-color: white;
+      border-radius: 7px;
+    }
+  
+    #b4 > div > button {
+      height: 50px;
+      width: 130px;
+      background-color: #eb662b;
+      border-radius: 7px;
+      border: 1px solid white;
+      margin-left: 700px;
+      cursor: pointer;
+    }
+  }
+  
