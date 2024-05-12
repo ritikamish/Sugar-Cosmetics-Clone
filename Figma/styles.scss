@@ -29,6 +29,7 @@ body {
       font-weight: 400;
       line-height: 0.13px;
       font-size: 14.3px;
+      color: #05073C;
     }
   }
 
@@ -74,11 +75,10 @@ body {
         visibility: visible;
       }
 
-      > .faded {
+      > p.faded {
         font-family: Inter;
         font-weight: 400;
         line-height: 24.38px;
-        color: #717171;
         margin-left: 31px;
         font-size: 12.19px;
         text-align: left;
