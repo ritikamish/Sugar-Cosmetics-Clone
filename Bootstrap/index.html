@@ -158,6 +158,31 @@
                     max-width: 1400px; 
 
                 }
+                .container-xxl{
+                    max-width: 1539px;
+                }
+            }
+
+
+            @media (max-width: 1200px) {
+                section.container-fluid {
+                    max-width: 1400px; 
+
+                }
+                .container-xxl{
+                    max-width: 99vw;
+                }
+
+                .hide{
+                    /* visibility: hidden; */
+                    display:none;
+                }
+
+                .temp{
+                    height: min-content !important;
+                    margin-bottom: 85px;
+                }
+
             }
         </style>
     </head>
@@ -166,9 +191,9 @@
         <!-- Navbar-Top [Dhananjay Day-2 Task-1] -->
         <header class="sticky-top">
             <nav>
-                <div style="height: 7.6rem;">
-                    <div style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); position: fixed; right: 0; left: 0; z-index: 100; top: 0;" class="fixed-top">
-                        <div class="navbar ">
+                <div class="temp" style="height: 7.6rem;">
+                    <div style="position: fixed; right: 0; left: 0; z-index: 100; top: 0;" class="fixed-top">
+                        <div class="navbar container-xxl hide">
                             <div class="name">
                                 <div class="rotate">
                                     <a class="link">New Launch: SUMMER MAKEUP KIT at Rs. 1799</a>
@@ -204,7 +229,7 @@
                         </div>
 
                         <!-- NavBar-mid-section-day-3 -->
-                        <div class="d-flex py-3 bg-black position-relative" style="z-index: 1;">
+                        <div class=" flawless-fusion container-xxl d-flex py-3 bg-black position-relative" style="z-index: 1;">
                             <div class="col-3 d-flex justify-content-center" style="cursor: pointer;">
                                 <img src="./assets/flawless-fusion.jpg" class="img-fluid" alt="Image Description" style="height: 55px; width: 320px;" />
                             </div>
@@ -272,7 +297,7 @@
         
         <!--  [Dhananjay Day-3 Task-1] -->
         <!-- NavBar-bottom-section-day-4 -->
-        <div class="d-flex justify-content-between bg-dark">
+        <div class="container-xxl hide justify-content-between bg-dark">
             <div class="px-1 d-flex justify-content-between align-items-center" style="cursor: pointer;">
                 <div class="dropdown mx-4 dropdownbar" >
                     <div class="navbar-brand px-1 text-white">LIPS</div>
@@ -314,7 +339,7 @@
         <!-- Carousel Homepage [Rohit Day-2 Task-1]-->
 
         <!-- Rohit's Day2-Task1 -->
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="container-xxl carousel slide p-0">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -829,7 +854,7 @@
             <h4 class="px-3">EXCLUSIVE COMBO LAUNCHES</h4>
             <div class="d-flex align-items-center justify-content-center" style="width: 3%; border-top: 2px solid #fc2779;"></div>
         </div>
-        <section class="combo_launch container  container  container container-fluid m-auto">
+        <section class="combo_launch  container container-fluid m-auto">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -1421,7 +1446,7 @@
 
         <!-- Footer- Read More  [Sumit Day-2 Task-1] -->
 
-        <div class="container">
+        <div class="container-xxl">
             <footer class="row">
                 <div class="col-md-12 text-center py-4 border-bottom">
                     <h3>
