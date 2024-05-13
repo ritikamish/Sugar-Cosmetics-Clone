@@ -4,7 +4,7 @@
   box-sizing: border-box;
   // max-width: 1800px;
   margin: auto;
-
+  text-align: center;
   > .navbar span ::-webkit-inner-spin-button {
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@
     gap: 0px;
     border-radius: 12px;
     opacity: 0px;
-    background-image: url(Section.png);
+    background-image: url(assets/Section.png);
 
     #box1 {
       background-color: white;
