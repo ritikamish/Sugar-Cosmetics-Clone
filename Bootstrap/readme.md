@@ -6,8 +6,7 @@ Flawless Fusion is a project aimed at replicating the functionality and design o
 Frontend
 
 ## Deployed Link -
-
-https://gregarious-sunshine-1cd4e1.netlify.app/
+https://joyful-torte-e35c94.netlify.app/
 
 ## Features 
 - Replica of Sugar Cosmetics landing page.
