@@ -1,5 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+section#top > .footer {
+  padding-bottom: 105px;
+  width: 1320px;
+  height: 296.38px;
+  top: 1677px;
+  left: 300px;
+  gap: 0px;
+  opacity: 0px;
+  margin: auto;
+}
+section#top > .footer > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 29.3px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  padding: 0px 0px 0px 15px;
+  color: #05073c;
+}
+section#top > .footer > .tags {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 110px;
+}
+section#top > .footer > .tags > .tag {
+  width: 255.53px;
+  height: 76.25px;
+  top: 216px;
+  left: 15px;
+  gap: 0px;
+  opacity: 0px;
+}
+section#top > .footer > .tags > .tag > img {
+  padding: 40px 0 30px 0;
+}
+section#top > .footer > .tags > .tag > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 17.72px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  padding-bottom: 14px;
+  color: #05073c;
+}
+section#top > .footer > .tags > .tag > p {
+  font-family: "Inter", sans-serif;
+  font-size: 14.88px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073c;
+  padding-bottom: 110px;
+}
+
 .nav-container {
   margin: 0;
   padding: 0;
