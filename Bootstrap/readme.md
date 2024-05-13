@@ -1,5 +1,5 @@
 # Flawless Fusion
-Flawless Fusion is a project aimed at replicating the functionality and design of the Sugar Cosmetics website. Sugar Cosmetics is a popular e-commerce platform specializing in cosmetic products. This project, led by Ritika Mishra, seeks to recreate the user experience and features of Sugar Cosmetics.
+Flawless Fusion is a project aimed at replicating the functionality and design of the Sugar Cosmetics website. Sugar Cosmetics is a popular e-commerce platform specializing in cosmetic products. This project seeks to recreate the user experience and features of Sugar Cosmetics.
 
 ## Project Type  -
 
