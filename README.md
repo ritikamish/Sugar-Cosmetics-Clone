@@ -10,7 +10,7 @@
   4. Rohit Priyadarshy
 
 ## Projects
-### 1. Flawless Fusion
+### 1. Flawless Fusion - Sugar Cosmetics Clone
 - **Link:** [Flawless Fusion Website](https://gregarious-sunshine-1cd4e1.netlify.app/)
 - **Directory Structure:**
 
